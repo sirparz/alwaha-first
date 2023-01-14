@@ -196,12 +196,21 @@ header .menu {
 }
 
 #first .booknow h3 {
-  
+  padding: 5rem 10%;
 }
 
 #first .booknow button {
   font-size: 1.2rem;
   padding: 1rem 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #first {
+    padding-top: 3.6rem;
+  }
+  #first h1 {
+    line-height: 1;
+  }
 }
 
 /* ABOUT */
